@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #2B283A;
+  
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 550px;
+  height: 704px;
+  box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+nav{
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+}
+
+nav h2{
+  color: #FFF;
+  font-size: 14px;
+}
+
+.card{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  height: 168px;
+  width: 471px;
+  margin: 36px 40px;
+}
+
+.card--image{
+  width: 126px;
+  height: 168px;
+  border-radius: 9px;
+  object-fit: cover;
+}
+
+.card--info{
+  width: auto;
+  margin-left: 19px;
+  width: 326px;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--countryName{
+  font-family: 'Inter';
+  font-style: normal;
+  padding-right:12px;
+  font-size: 12px;
+}
+
+.card--img{
+  height:9px;
+  padding-right:4px;
+}
+
+.card--view{
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.card--place{
+margin-top: 4px;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+
+.card--date{
+margin-top: 7px;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+}
+
+.card--describe{
+  font-size: 12px;
+  line-height: 150%;
+  margin-top: 9px;
+}
